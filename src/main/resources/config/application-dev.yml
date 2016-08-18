@@ -1,0 +1,13 @@
+spring:
+    profiles:
+        active: dev
+    data:
+        mongodb:
+            uri: mongodb://localhost:27017
+            database: cloudx_web_v3_test
+liquibase:
+    contexts: dev
+server:
+    port: 8090
+aaa:
+   bbb : ccc
